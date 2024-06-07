@@ -7,7 +7,7 @@
 body{
     font-size: 16px;
     background-color:#fafaf9;
-    color: #1a1a1a;;
+    color: #1a1a1a;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@ body{
     overflow: hidden;
 }
 h1{
+    font-size: 2rem;
     text-align: center;
     margin:2rem 0rem;
 }
@@ -107,6 +108,7 @@ div h5{
 @media (max-width: 450px) {
     html{
         font-size: 7px;
+        overflow-y: auto;
     }
     .output{
         font-size: 2rem;
@@ -115,8 +117,12 @@ div h5{
         font-size: 2rem;
     }
     .formular{
-        font-size:2rem;
+        font-size:1.8rem;
         text-wrap: wrap;
-        
+    }
+    div h5{
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
     }
 }
